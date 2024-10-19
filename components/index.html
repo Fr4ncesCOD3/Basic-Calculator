@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../asset/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <main>
+            <section id="input-visual">
+                <input type="text" id="input-display-text" readonly>
+            </section>
+            <section id="buttons">
+                <div id="number-buttons"></div>
+                <div id="operator-buttons">
+                    <button class="operator" data-operator="+"><i class="fas fa-plus"></i></button>
+                    <button class="operator" data-operator="-"><i class="fas fa-minus"></i></button>
+                    <button class="operator" data-operator="*"><i class="fas fa-times"></i></button>
+                    <button class="operator" data-operator="/"><i class="fas fa-divide"></i></button>
+                </div>
+                <div id="action-buttons">
+                    <button id="clear">C</button>
+                    <button id="backspace"><i class="fas fa-backspace"></i></button>
+                    <button id="equals"><i class="fas fa-equals"></i></button>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="../script/script.js"></script>
+</body>
+</html>
